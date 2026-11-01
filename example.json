@@ -1,0 +1,23 @@
+{
+  "Location": "Sydney",
+  "MinTemp": 12.9,
+  "MaxTemp": 20.3,
+  "Rainfall": 0.2,
+  "Evaporation": 3.0,
+  "Sunshine": 10.9,
+  "WindGustDir": "ENE",
+  "WindGustSpeed": 37.0,
+  "WindDir9am": "W",
+  "WindDir3pm": "E",
+  "WindSpeed9am": 11.0,
+  "WindSpeed3pm": 26.0,
+  "Humidity9am": 70.0,
+  "Humidity3pm": 57.0,
+  "Pressure9am": 1028.8,
+  "Pressure3pm": 1025.6,
+  "Cloud9am": 3.0,
+  "Cloud3pm": 1.0,
+  "Temp9am": 16.9,
+  "Temp3pm": 19.8,
+  "RainToday": "No"
+}

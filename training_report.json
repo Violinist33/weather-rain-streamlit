@@ -1,0 +1,86 @@
+{
+  "model": "RandomForestClassifier",
+  "sklearn_version": "1.5.2",
+  "parameters": {
+    "bootstrap": true,
+    "ccp_alpha": 0.0,
+    "class_weight": null,
+    "criterion": "gini",
+    "max_depth": 16,
+    "max_features": "sqrt",
+    "max_leaf_nodes": null,
+    "max_samples": null,
+    "min_impurity_decrease": 0.0,
+    "min_samples_leaf": 5,
+    "min_samples_split": 2,
+    "min_weight_fraction_leaf": 0.0,
+    "monotonic_cst": null,
+    "n_estimators": 150,
+    "n_jobs": 2,
+    "oob_score": false,
+    "random_state": 42,
+    "verbose": 0,
+    "warm_start": false
+  },
+  "data_rows": 145460,
+  "dropped_missing_target": 3267,
+  "train_rows": 98988,
+  "train_start": "2007-11-01",
+  "train_end": "2014-12-31",
+  "input_features": 21,
+  "encoded_features": 119,
+  "data_sha256": "573fd715cd69fcacc4df32024d823b450ae3edaae7e8ff2eeb623adbed424014",
+  "source": "https://www.kaggle.com/datasets/jsphyg/weather-dataset-rattle-package",
+  "metrics": {
+    "validation": {
+      "rows": 17231,
+      "start": "2015-01-01",
+      "end": "2015-12-31",
+      "accuracy": 0.8520689455051941,
+      "precision_yes": 0.7908946532556909,
+      "recall_yes": 0.4095394736842105,
+      "f1_yes": 0.5396424056348204,
+      "roc_auc": 0.8735493065054228,
+      "baseline_always_no_accuracy": 0.7882885497069235,
+      "confusion_matrix_labels": [
+        "No",
+        "Yes"
+      ],
+      "confusion_matrix": [
+        [
+          13188,
+          395
+        ],
+        [
+          2154,
+          1494
+        ]
+      ]
+    },
+    "test": {
+      "rows": 25974,
+      "start": "2016-01-01",
+      "end": "2017-06-25",
+      "accuracy": 0.83995533995534,
+      "precision_yes": 0.7661410294555192,
+      "recall_yes": 0.43306424487050116,
+      "f1_yes": 0.5533469431610616,
+      "roc_auc": 0.8614211588807624,
+      "baseline_always_no_accuracy": 0.7710787710787711,
+      "confusion_matrix_labels": [
+        "No",
+        "Yes"
+      ],
+      "confusion_matrix": [
+        [
+          19242,
+          786
+        ],
+        [
+          3371,
+          2575
+        ]
+      ]
+    }
+  }
+}
