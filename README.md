@@ -1,5 +1,7 @@
 # Чи буде дощ завтра? — Streamlit
 
+**[Відкрити застосунок](https://lupandin-weather-rain.streamlit.app/)** · [GitHub-репозиторій](https://github.com/Violinist33/weather-rain-streamlit)
+
 Домашнє завдання з деплойменту моделі машинного навчання.
 Додаток приймає погодні спостереження з австралійської метеостанції та
 прогнозує `RainTomorrow`: `Yes` або `No`. Показує ймовірність дощу та
